@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = ExceptionSearch::VERSION
   gem.authors       = ["Dan Rodriguez"]
   gem.email         = ["dan@danrodriguez.me"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Stuck on a weird exception? Save a few seconds by linking right to the search results}
+  gem.summary       = %q{Stuck on a weird exception? Save a few seconds by linking right to the search results}
+  gem.homepage      = "https://github.com/operand/exception_search"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
