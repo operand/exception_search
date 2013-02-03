@@ -1,6 +1,6 @@
 # ExceptionSearch
 
-TODO: Write a gem description
+This is a work in progress. Check back soon!
 
 ## Installation
 
