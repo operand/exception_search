@@ -16,13 +16,13 @@ module RSpec
         def format_links(example)
           exception = example.execution_result[:exception]
           "
-          #{long_padding} Search for this exception online: (#{instructions}) 
-          #{long_padding}#{short_padding} google: \t#{ exception.to_google }
-          #{long_padding}#{short_padding} stackoverflow: \t#{ exception.to_stackoverflow }
+          Search for this exception online: (#{link_instructions}) 
+          #{short_padding} google: \t#{exception.to_google}
+          #{short_padding} stackoverflow: \t#{exception.to_stackoverflow}
           "
         end
 
-        def instructions
+        def link_instructions
           if RUBY_PLATFORM =~ /darwin/i
             "cmd-click to open results in your browser"
           else
