@@ -12,4 +12,8 @@ describe Exception do
       subject.to_stackoverflow.should == "http://stackoverflow.com/search?q=#{subject.message}"
     end
   end
+
+  it "should show the links when a backtrace is printed" do
+    raise 'hi'
+  end
 end
