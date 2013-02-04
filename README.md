@@ -4,7 +4,7 @@ We all do it. You get some weird exception and you're clueless. So what do you d
 
 So the idea came to me to save a couple seconds by including a link right to Google and Stack Overflow from a backtrace. That's what this gem does.
 
-Currently the gem integrates only with Rspec, but I'm planning on adding support for more third party libraries when it makes sense.
+Currently the gem integrates with Rspec, but I'm planning on adding support for more third party libraries when it makes sense.
 
 
 ## Installation
