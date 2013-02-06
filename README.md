@@ -21,6 +21,10 @@ Or install it yourself as:
 
     $ gem install exception_search
 
+Then in your spec_helper.rb:
+
+    $ require 'exception_search/rspec'
+
 
 ## Usage
 
